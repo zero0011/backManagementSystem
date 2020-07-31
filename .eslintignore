@@ -1,0 +1,45 @@
+/build/
+/config/
+/dist/
+/*.js
+/src/components/case-repository/case-detail.vue
+/src/components/case-repository/module-detail.vue
+/src/components/case-repository/return-repository-history-record.vue
+/src/components/case-repository/version-repository-history-record.vue
+/src/pages/projectManage/createProject.vue
+/src/pages/projectManage/projectControl.vue
+/src/components/projectManagement/join.vue
+/src/components/projectManagement/create.vue
+/src/components/projectManagement/all.vue
+/src/pages/staffManagement/staff-Management.vue
+/src/pages/projectManage/projectMemberManage.vue
+/src/components/StaffManage/intern.vue
+/src/components/StaffManage/partner.vue
+/src/components/StaffManage/regular.vue
+/src/components/StaffManage/all.vue
+/src/components/StaffManage old/intern.vue
+/src/components/StaffManage old/partner.vue
+/src/components/StaffManage old/regular.vue
+/src/components/StaffManage old/all.vue
+/src/components/newResource/resource-all.vue
+/src/components/newResource/resource-low.vue
+/src/components/newResource/resource-heavy.vue
+/src/components/newResource/resource-idle.vue
+/src/components/newResource/resource-normal.vue
+/src/components/Resource/resource-all.vue
+/src/components/Resource/resource-low.vue
+/src/components/Resource/resource-heavy.vue
+/src/components/Resource/resource-idle.vue
+/src/components/Resource/resource-normal.vue
+/src/components/historyDataDetails.vue
+/src/pages/staffManagement/staff-Management.vue
+/src/pages/staffManagement/staff-Management old.vue
+/src/pages/projectManage/projectMemberManage.vue
+/src/components/StaffManage/regular.vue
+/src/pages/resourseManagement/resourse-Management.vue
+/src/pages/resourseManagement/resourse-Management old.vue
+/src/components/StaffManage/all.vue
+/src/pages/resourseManagement/resourse-Management.vue
+/src/pages/projectHumanRosourceManagement/projectHumanRosourceManagement.vue
+/src/pages/humanPipelineData/humanPipelineData.vue
+src/pages/useCaseManagement/create-use-case-managment.vue

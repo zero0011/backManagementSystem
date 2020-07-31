@@ -1,0 +1,31 @@
+
+.useCaseSetListApp {
+  width: 100%
+}
+.useCaseSetListApp .color {
+  color: #409EFF;
+  cursor: pointer
+}
+.useCaseSetListApp > .header {
+  width: 1188px;
+  margin: 0 auto;
+  height: 14px;
+  padding: 10px 0px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
+}
+.useCaseSetListApp > .header > .breadcrumb {
+  margin-left: 10px
+}
+.useCaseSetListApp > main {
+  width: 1190px;
+  margin: 0 auto;
+  margin-top: 10px
+}
+.useCaseSetListApp > main > .top{
+  width: 1190px
+}
+.el-table th {
+  padding: 8.5px 0px
+}

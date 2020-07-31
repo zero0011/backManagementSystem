@@ -1,0 +1,298 @@
+.projectMemberManageApp {
+    width: 100%;
+    /* margin: 0 auto; */
+    /* overflow-y: auto */
+    /* max-height: 800px;
+    overflow-y: auto; */
+  }
+  .projectMemberManageApp .color {
+    color: #409EFF;
+    cursor: pointer
+  }
+  .projectMemberManageApp > .header {
+    width: 1188px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+  }
+  .projectMemberManageApp > .header > .breadcrumb {
+    margin-left: 10px
+  }
+  .projectMemberManageApp > .demo-ruleForm {
+    width: 1188px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #ccc
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(4) > .el-form-item__content > .el-form-item {
+    display: inline-block
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(4) > .el-form-item__content > .el-form-item > .el-form-item__content {
+    display: inline-block
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(4) > .el-form-item__content > .el-form-item > .el-form-item__content > .el-input {
+    width: 450px;
+    display: inline-block
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(4) > .el-form-item__content > span {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #000;
+    margin: 0px 50px
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(5) > .el-form-item__content > .el-select > .el-input {
+    width: 500px;
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(6) > .el-form-item__content > .el-radio-group > .el-button:nth-of-type(1) {
+    position: absolute;
+    top: 0px;
+    right: 120px
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(6) > .el-form-item__content > .el-radio-group > .el-button:nth-of-type(2) {
+    position: absolute;
+    top: 0px;
+    right: 0px
+  }
+  .el-table td, .el-table th {
+    padding: 8.5px 0px
+  }
+  .projectMemberManageApp > .demo-ruleForm > .el-form-item:nth-of-type(7) > .el-form-item__content > .el-table > .el-table__body-wrapper {
+    min-height: 49px;
+    max-height: 147px;
+    overflow-y: auto
+  }
+  .projectMemberManageApp > .demo-ruleForm > .build {
+    margin-bottom: 20px
+  }
+  .projectMemberManageApp > .demo-ruleForm > .build > .el-form-item__content > .el-button {
+    margin-right: 20px
+  }
+
+  .projectMemberManageApp > .bindUser > .el-dialog {
+    width: 1000px;
+    height: 600px
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .left {
+    width: 300px;
+    float: left;
+    margin-left: 30px
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .left > h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ccc;
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .left > .el-tree {
+    width: 298px;
+    height: 448px;
+    border: 1px solid #DCDFE6;
+    overflow-y: auto;
+    overflow-x: hidden
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .middle {
+    width: 80px;
+    float: left;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .middle > .el-button {
+    width: 80px;
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right {
+    width: 450px;
+    float: left;
+    height: 500px;
+    margin-left: 50px
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ccc;
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > .table{
+    width: 448px;
+    height: 450px;
+    border-left: 1px solid #DCDFE6;
+    border-right: 1px solid #DCDFE6
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > .table > .el-table {
+    width: 448px;
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > .table > .el-table > .el-table__header-wrapper > .el-table__header > thead > tr > th:first-of-type{
+    border-right: 1px solid #DCDFE6
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > .table > .el-table > .el-table__body-wrapper {
+    height: 402px;
+    overflow-y: auto
+  }
+  .projectMemberManageApp > .bindUser > .el-dialog > .el-dialog__body > .right > .table > .el-table > .el-table__body-wrapper > .el-table__body > tbody > tr > td:first-of-type {
+    border-right: 1px solid #DCDFE6;
+    height: 40px;
+    padding: 3px 0
+  }
+
+  
+.projectMemberManageApp {
+  width: 100%
+}
+.projectMemberManageApp > .header {
+  width: 1188px;
+  margin: 0 auto;
+  height: 14px;
+  padding: 10px 0px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
+}
+.projectMemberManageApp > .header > .breadcrumb {
+  margin-left: 10px
+}
+.projectMemberManageApp > main {
+  width: 1188px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  min-height: 100px
+}
+/* .projectMemberManageApp > main > .top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative
+}
+.projectMemberManageApp > main > .top > .el-select {
+  float: left;
+  margin-left: 20px
+}
+.projectMemberManageApp > main > .top > .el-select > .el-input > .el-input__inner {
+  height: 32px
+}
+.projectMemberManageApp > main > .top > .el-select > .el-input .el-input__icon {
+  line-height: 0px
+}
+.projectMemberManageApp > main > .top > .el-button:nth-of-type(1) {
+  float: left;
+  margin-left: 100px
+}
+.projectMemberManageApp > main > .top > .el-button:nth-of-type(2) {
+  float: left;
+  position: absolute;
+  right: 20px
+} */
+.projectMemberManageApp > main > .middle {
+  margin-top: 80px;
+  margin-bottom: 20px
+}
+.projectMemberManageApp > main > .middle > div > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px
+}
+.projectMemberManageApp > main > .middle > div > ul > li {
+  width: 1148px;
+  background-color: #F2F6FC;
+  font-size: 18px;
+  padding: 3px 0px
+}
+.projectMemberManageApp > .seeTestPeople > .el-dialog > .el-dialog__body > .el-table > .el-table__header-wrapper > .el-table__header > thead > tr > th {
+  padding: 8.5px 0px
+}
+
+.projectMemberManageApp > .seeTestPeople > .el-dialog > .el-dialog__body > .el-table > .el-table__body-wrapper {
+  min-height: 50px;
+  max-height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden
+}
+.projectMemberManageApp > .seeTestPeople > .el-dialog > .el-dialog__body > .el-table > .el-table__body-wrapper > .el-table__body > tbody > tr > td {
+  padding: 13px 0px
+}
+.projectMemberManageApp > main > .container {
+  width: 1148px;
+  margin: 10px 0 20px 20px;
+  min-height: 200px
+}
+.projectMemberManageApp > main > .container > .el-card {
+  margin-bottom: 20px
+}
+.projectMemberManageApp > main > .container > .el-card > .el-card__header {
+  padding: 5px 20px
+}
+.projectMemberManageApp > main > .container > .el-card > .el-card__body > .el-table th {
+  padding: 4px 0
+}
+.projectMemberManageApp > main > .container > .el-card > .el-card__body > .el-table td {
+  padding: 4px 0
+}
+.projectMemberManageApp > main > .container > footer {
+  text-align: center
+}
+.projectMemberManageApp > .canCases > .el-dialog > .el-dialog__body > .el-tree {
+  max-height: 500px;
+  overflow-x: auto;
+  overflow-y: auto
+}
+.projectMemberManageApp > .canCases > .el-dialog > .el-dialog__body > footer {
+  margin-top: 20px;
+  height: 30px
+}
+.projectMemberManageApp > .canCases > .el-dialog > .el-dialog__body > footer > .el-button {
+  float: right
+}
+.circlered {
+    width: 10px;
+    height: 10px;
+    background-color: #F56C6C;
+    display: inline-block;
+    /* -moz-border-radius: 50px;
+    -webkit-border-radius: 50px; */
+    border-radius: 50%;
+}
+.circlegreen {
+    width: 10px;
+    height: 10px;
+    background-color: #67C23A;
+    display: inline-block;
+    /* -moz-border-radius: 50px;
+    -webkit-border-radius: 50px; */
+    border-radius: 50%;
+}
+.circleorange {
+    width: 10px;
+    height: 10px;
+    background-color: #E6A23C;
+    display: inline-block;
+    /* -moz-border-radius: 50px;
+    -webkit-border-radius: 50px; */
+    border-radius: 50%;
+}
+.circleblue {
+  width: 10px;
+  height: 10px;
+  background-color: #409EFF;
+  display: inline-block;
+  /* -moz-border-radius: 50px;
+  -webkit-border-radius: 50px; */
+  border-radius: 50%;
+}
